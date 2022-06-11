@@ -21,6 +21,7 @@ export const Base = () => {
   return (
     <BodyContainer>
       <Routes>
+        <Route path='/React-Starter' element={<Home />} />
         <Route path='/' element={<Home />} />
       </Routes>
     </BodyContainer>
